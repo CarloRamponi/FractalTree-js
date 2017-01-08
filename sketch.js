@@ -15,7 +15,7 @@ function draw() {
     translate(width/2, height);
     ramo(150);
     if(dir==true){
-        if(angle<=TWO_PI)
+        if(angle<=PI/2)
             angle+=0.05;
         else {
             dir=false;
